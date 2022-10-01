@@ -1,0 +1,89 @@
+* {
+   margin: 0;
+   padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway&display=swap');
+
+  /* Live Server no Celular + Link para o Whats e Telegram */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: rgb(54,77,204);
+    background: radial-gradient(circle, rgb(82, 24, 148) 0%, rgba(36,51,135,1) 100%);
+}
+
+
+.perfil {
+    text-align: center;
+    margin-top: 23px;
+}
+
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+
+.social img {
+    width: 33px;
+    margin-top: 15px;
+}
+
+
+.avatar {
+    width: 100px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+
+h1 {
+    font-family:'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 34px;
+}
+
+
+h2 {
+    font-size: 19px;
+}
+
+/* h3 {
+    background: aliceblue;
+    border-radius: 15px;
+}*/
+
+.links-list {
+    list-style: none;
+    text-align: center;
+}
+
+
+.links-list li {
+    margin: 15px 25px;
+}
+
+
+.links-list li a {
+    display: block;
+    color:rgb(82, 24, 148);
+    background-color: aliceblue;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+.links-list li a span {
+    display: block;
+    color: gray;
+    margin-top: 5px;
+}
