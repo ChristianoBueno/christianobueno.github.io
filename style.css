@@ -50,7 +50,7 @@ body {
 h1 {
     font-family: 'Bungee Spice', cursive;
     font-weight: 100;
-    font-size: 34px;
+    font-size: 30px;
 }
 
 
@@ -71,18 +71,15 @@ h2 {
 }
 
 
-.img1 {
-    width: 20px;
-}
-
-
 .img2 {
     width: 20px;
 }
 
+
 .img3 {
     width: 20px;
 }
+
 
 .links-list li a {
     display: block;
